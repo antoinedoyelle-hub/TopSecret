@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Stardos+Stencil:wght@400;700&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(192, 217, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(123, 179, 222);
+    padding: 20px;
+    border-radius: 50px 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: rgb(98, 139, 190);
+    color: rgb(30, 54, 108);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px dashed rgb(30, 54, 108);
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+#prenom {
+    margin-top: 25px;
+}
+
+p {
+    color: rgb(30, 54, 108);
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgb(98, 139, 190);
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+button {
+    background-color: rgb(98, 139, 190);
+    border: none;
+    border-radius: 30px 15px;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(30, 54, 108);
+    margin: 20px;
+}
+
+button:hover {
+    background-color: rgb(91, 129, 175);
+    transition: 0.8s;
+    transform:translateY(-1px) ;
+}
+
+input:hover {
+    background-color: rgb(220, 216, 216);
+    transition: 0.8s;
+    transform:translateY(-1px) 
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    display: flex;
+    background-color: rgb(113, 157, 210);
+    border-radius: 50px 25px;
+    margin: 17px 0 15px 0;
+}
+
+h2 {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+h4 {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.heart {
+    background-color: rgb(123, 179, 222);
+    padding-bottom: 20px;
+    font-size: 60px;
+    color:rgb(224, 32, 214);
+}
+
+.material-symbols-rounded{
+    font-weight: bold;
+}
+
+h3 {
+    font-family: handlee;
+    margin-left: 275px;
+}

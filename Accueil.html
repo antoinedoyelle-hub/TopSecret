@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Accueil" />
+    <title>Titre</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div>
+        <form id="formulaire">
+            <h1 class="title">Bonjour</h1>
+            <p>Vous venez d'entrer dans un endroit <strong>top secret</strong> !</p>
+            <p>Qui êtes-vous ? Comment avez vous pu accéder à cette page ?</p>
+            <p>Veuillez, par mesure de sécurité, préciser votre identité.</p>
+            <input id="prenom" class="input" type="text" name="prenom" placeholder="Entrez votre prénom" required />
+            <br />
+            <input id="nom" class="input" type="text" name="nom" placeholder="Entrez votre nom" required />
+            <br />
+            <input class="input soumettre" type="submit" value="Soumettre"/>
+            <h4 id="message"></h4>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>

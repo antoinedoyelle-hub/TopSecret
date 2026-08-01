@@ -119,3 +119,9 @@ h3 {
     font-family: handlee;
     margin-left: 275px;
 }
+
+@media (max-width: 1024px) {
+    div {
+        max-width: 95%;
+    }
+}
